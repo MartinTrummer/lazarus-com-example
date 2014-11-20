@@ -148,4 +148,4 @@ done
 ```
 
 ----
-this document was created with the wunderfool haroo-pad markdown editor: http://pad.haroopress.com/
+this document was created with the haroo-pad markdown editor: http://pad.haroopress.com/
