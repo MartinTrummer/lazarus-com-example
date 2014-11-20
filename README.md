@@ -25,7 +25,7 @@ We will build 2 projects:
 ### Type Library
 The first thing that we need is the type library. I could not find out how to build a type library in Lazarus, thus I have created one in Delphi (Does anyone know a simpler alternative or even a Lazarus extension?)
 
-In Delphi it is easy to define the type library in a RIDL file and then generated the  <a href="LazComDll/LazComDll.ridl ">type library file</a>
+In Delphi it is easy to define the type library in a RIDL file and then generated the  <a href="LazComDll/LazComDll.ridl">type library file</a>
 
 ### Crate Lazarus Library Project
 The next step is to build a Lazarus project which will finally create a DLL file: File - New - Project - Library
