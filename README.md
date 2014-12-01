@@ -7,8 +7,9 @@ example project to test COM programming in the Lazarus IDE
 The goal of this example is to document how you can use the free Lazarus IDE to create a DLL that contains a COM object and its type library. So that you can use the COM object easily: i.e. use regsvr32 to register the COM object, read the type library from the DLL and thus use the COM object in any application.
 
 We will build 2 projects:
+
 1. Dll Project (LazComDll): this project will create the DLL file that includes the COM object
-1. Exe Project (LazComDllApp): this project will create an EXE file which will use the registered COM object (in the DLL) and call a method on it
+2. Exe Project (LazComDllApp): this project will create an EXE file which will use the registered COM object (in the DLL) and call a method on it
 
 ## System description
 - Windows® 7 SP1 64 bit
